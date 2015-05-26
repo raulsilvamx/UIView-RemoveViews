@@ -11,9 +11,11 @@ UIView-RemoveView is an Addon for remove all subviews in a UIView. It's simple (
 
 ##Example
 
+```objc
 #import UIView+RemoveViews.h
 
 in your code 
 
 UIView *aView = [[UIView alloc] init];
 [aView removeAllViews];
+```
